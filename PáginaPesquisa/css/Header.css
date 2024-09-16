@@ -27,6 +27,19 @@ ul li {
     font-weight: bold;
 }
 
+ul li a {
+    text-decoration: none;
+    outline: none;
+    color: #E27397;
+}
+
+.bottom a {
+        text-decoration: none;
+        outline: none;
+        color: white;
+}
+
+
 .icons {
     display: flex;
     align-items: center;
