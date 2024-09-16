@@ -6,8 +6,23 @@
         <link rel="stylesheet" href="css/BarraLateral.css">
         <link rel="stylesheet" href="css/Blocos.css">
         <link rel="stylesheet" href="css/Carrosseis.css">
+        <link rel="stylesheet" href="css/Header.css">
+        <link rel="stylesheet" href="css/Footer.css">
     </head>
     <body>
+    <header>
+        <img src="img/logo.png" alt="logo" class="logo">
+        <ul>
+            <li>Página Principal</li>
+            <li>Livros</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+        </ul>
+        <div class="icons">
+            <img src="img/favoritos_header.png" alt="Favoritos" class="imgheaderfav">
+            <img src="img/perfil.png" alt="Perfil" class="imgheader">
+        </div>
+    </header>
         <div class="blocos">
             <div class="container">
                 <div class="barra-lateral">
@@ -72,56 +87,6 @@
                         </div>
                     </div>
                     <div class="carrosseis">
-                        <h1>Você também pode gostar</h1>
-                        <div class="livros">
-                            <div class="livro">
-                                <div class="imagem-livro">
-                                    <img src="img/umasegunndachance.jpeg" alt="Uma segunda chance">
-                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
-                                </div>
-                                <h2>Uma segunda chance</h2>
-                                <p>Colleen Hoover</p>
-                                <div class="bottom">
-                                    <div class="nota">
-                                        <img src="img/estrela.png" alt="Estrela">
-                                        <p>4.2</p>
-                                    </div>
-                                    <button>Veja Mais</button>
-                                </div>
-                            </div>
-
-                            <div class="livro">
-                                <div class="imagem-livro">
-                                    <img src="img/kimiNiTodoke.jpg" alt="Kimi ni Todoke">
-                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
-                                </div>
-                                <h2>Kimi ni Todoke</h2>
-                                <p>Karuho Shiina</p>
-                                <div class="bottom">
-                                    <div class="nota">
-                                        <img src="img/estrela.png" alt="Estrela">
-                                        <p>3.7</p>
-                                    </div>
-                                    <button>Veja Mais</button>
-                                </div>
-                            </div>
-
-                            <div class="livro">
-                                <div class="imagem-livro">
-                                    <img src="img/mulherzinhas.jpg" alt="Mulherzinhas">
-                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
-                                </div>
-                                <h2>Mulherzinhas</h2>
-                                <p>Louisa May Alcott</p>
-                                <div class="bottom">
-                                    <div class="nota">
-                                        <img src="img/estrela.png" alt="Estrela">
-                                        <p>4.8</p>
-                                    </div>
-                                    <button>Veja Mais</button>
-                                </div>
-                            </div>
-                        </div>
                         <h1>Últimos lançamentos</h1>
                         <div class="livros">
                             <div class="livro">
@@ -226,6 +191,29 @@
                 </div>
             </div>
         </div>
-        <script src="PaginaPesquisa.js"></script>
+        <footer class="rodape">
+            <div class="conteudo-rodape">
+                <div class="contato">
+                    <h2 class="titulo">Fale Conosco</h2>
+                    <p>(61) 37036-3827</p>
+                    <p>royalbooks@gmail.com</p>
+                </div>
+                <div class="endereco">
+                    <h2 class="titulo">Endereço</h2>
+                    <p>17 Rua Acaju, Lt.1</p>
+                    <p>Brasil</p>
+                </div>
+                <div class="inscricao">
+                    <h2 class="titulo">Se Inscreva</h2>
+                    <div class="caixa-inscricao">
+                        <input type="text" placeholder="Seu email" class="input-email">
+                        <div class="botao-inscricao">
+                            <img src="../.idea/Chevron right.png" alt="Chevron" width="24" height="24">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="PaginaPesquisa.js"></script>
     </body>
 </html>
