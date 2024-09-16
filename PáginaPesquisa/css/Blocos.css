@@ -1,0 +1,42 @@
+.blocos {
+    display: flex;
+
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.bloco {
+    background-color: #F6EAF5;
+    border-radius: 8px;
+    padding: 10px;
+    height: 200px;
+    width: 315px;
+    margin: 0 20px 20px 20px;
+    position: relative;
+}
+
+.bloco h2 {
+    color: #E27397;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.img1, .img2, .img3 {
+    max-width: 60%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.img1 {
+    top: -60px;
+}
+.img2 {
+    top: -110px;
+    margin-right: 50px;
+}
+.img3 {
+    top: -30px;
+    margin-right: 20px;
+}

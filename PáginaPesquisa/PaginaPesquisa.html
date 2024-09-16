@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Página de pesquisa</title>
+        <link rel="stylesheet" href="css/BarraLateral.css">
+        <link rel="stylesheet" href="css/Blocos.css">
+        <link rel="stylesheet" href="css/Carrosseis.css">
+    </head>
+    <body>
+        <div class="blocos">
+            <div class="container">
+                <div class="barra-lateral">
+                    <div class="acordeao">
+                        <div class="acordeao-cabecalho" onclick="alternarAcordeao('conteudo-categorias')">
+                            <span>Categorias</span>
+                            <img src="img/setaBaixo.png" alt="Seta para baixo">
+                        </div>
+                        <div id="conteudo-categorias" class="acordeao-conteudo">
+                            <label><input type="checkbox"> Infantil</label>
+                            <label><input type="checkbox"> Aventura</label>
+                            <label><input type="checkbox"> Ficção</label>
+                            <label><input type="checkbox"> Romance</label>
+                            <label><input type="checkbox"> HQ's</label>
+                            <label><input type="checkbox"> Terror</label>
+                            <label><input type="checkbox"> Suspense</label>
+                            <label><input type="checkbox"> Mangá</label>
+                        </div>
+                    </div>
+                    <div class="acordeao">
+                        <div class="acordeao-cabecalho" onclick="alternarAcordeao('conteudo-ordenar')">
+                            <span>Ordenar por</span>
+                            <img src="img/setaBaixo.png" alt="Seta para baixo">
+                        </div>
+                        <div id="conteudo-ordenar" class="acordeao-conteudo">
+                            <label><input type="checkbox"> Alfabeto</label>
+                            <label><input type="checkbox"> Mais recente</label>
+                            <label><input type="checkbox"> Menos recente</label>
+                        </div>
+                    </div>
+                    <div class="acordeao caixa-avaliacao">
+                        <div class="acordeao-cabecalho" onclick="alternarAcordeao('conteudo-avaliacao')">
+                            <span>Avaliação</span>
+                            <img src="img/setaBaixo.png" alt="Seta para baixo">
+                        </div>
+                        <div id="conteudo-avaliacao" class="acordeao-conteudo avaliacao-corpo">
+                            <span class="valor-minimo">1</span>
+                            <input type="range" min="1" max="5" value="3" class="slider" id="slider-avaliacao">
+                            <span class="valor-maximo">5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="centro">
+                    <div class="blocos">
+                        <div class="bloco">
+                            <h2>As melhores <br> avaliações</h2>
+                            <div class="img1">
+                                <img src="img/troféu.png" alt="Troféu">
+                            </div>
+                        </div>
+                        <div class="bloco">
+                            <h2>Na palma da <br> sua mão</h2>
+                            <div class="img2">
+                                <img src="img/menina.png" alt="Menina deitada mexendo no celular">
+                            </div>
+                        </div>
+                        <div class="bloco">
+                            <h2>diariamente!</h2>
+                            <div class="img3">
+                                <img src="img/pesquisa.png" alt="Lupa analisando dados">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carrosseis">
+                        <h1>Você também pode gostar</h1>
+                        <div class="livros">
+                            <div class="livro">
+                                <div class="imagem-livro">
+                                    <img src="img/umasegunndachance.jpeg" alt="Uma segunda chance">
+                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
+                                </div>
+                                <h2>Uma segunda chance</h2>
+                                <p>Colleen Hoover</p>
+                                <div class="bottom">
+                                    <div class="nota">
+                                        <img src="img/estrela.png" alt="Estrela">
+                                        <p>4.2</p>
+                                    </div>
+                                    <button>Veja Mais</button>
+                                </div>
+                            </div>
+
+                            <div class="livro">
+                                <div class="imagem-livro">
+                                    <img src="img/kimiNiTodoke.jpg" alt="Kimi ni Todoke">
+                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
+                                </div>
+                                <h2>Kimi ni Todoke</h2>
+                                <p>Karuho Shiina</p>
+                                <div class="bottom">
+                                    <div class="nota">
+                                        <img src="img/estrela.png" alt="Estrela">
+                                        <p>3.7</p>
+                                    </div>
+                                    <button>Veja Mais</button>
+                                </div>
+                            </div>
+
+                            <div class="livro">
+                                <div class="imagem-livro">
+                                    <img src="img/mulherzinhas.jpg" alt="Mulherzinhas">
+                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
+                                </div>
+                                <h2>Mulherzinhas</h2>
+                                <p>Louisa May Alcott</p>
+                                <div class="bottom">
+                                    <div class="nota">
+                                        <img src="img/estrela.png" alt="Estrela">
+                                        <p>4.8</p>
+                                    </div>
+                                    <button>Veja Mais</button>
+                                </div>
+                            </div>
+                        </div>
+                        <h1>Últimos lançamentos</h1>
+                        <div class="livros">
+                            <div class="livro">
+                                <div class="imagem-livro">
+                                    <img src="img/umasegunndachance.jpeg" alt="Uma segunda chance">
+                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
+                                </div>
+                                <h2>Uma segunda chance</h2>
+                                <p>Colleen Hoover</p>
+                                <div class="bottom">
+                                    <div class="nota">
+                                        <img src="img/estrela.png" alt="Estrela">
+                                        <p>4.2</p>
+                                    </div>
+                                    <button>Veja Mais</button>
+                                </div>
+                            </div>
+
+                            <div class="livro">
+                                <div class="imagem-livro">
+                                    <img src="img/kimiNiTodoke.jpg" alt="Kimi ni Todoke">
+                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
+                                </div>
+                                <h2>Kimi ni Todoke</h2>
+                                <p>Karuho Shiina</p>
+                                <div class="bottom">
+                                    <div class="nota">
+                                        <img src="img/estrela.png" alt="Estrela">
+                                        <p>3.7</p>
+                                    </div>
+                                    <button>Veja Mais</button>
+                                </div>
+                            </div>
+
+                            <div class="livro">
+                                <div class="imagem-livro">
+                                    <img src="img/mulherzinhas.jpg" alt="Mulherzinhas">
+                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
+                                </div>
+                                <h2>Mulherzinhas</h2>
+                                <p>Louisa May Alcott</p>
+                                <div class="bottom">
+                                    <div class="nota">
+                                        <img src="img/estrela.png" alt="Estrela">
+                                        <p>4.8</p>
+                                    </div>
+                                    <button>Veja Mais</button>
+                                </div>
+                            </div>
+                        </div>
+                        <h1>Mais bem avaliados</h1>
+                        <div class="livros">
+                            <div class="livro">
+                                <div class="imagem-livro">
+                                    <img src="img/umasegunndachance.jpeg" alt="Uma segunda chance">
+                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
+                                </div>
+                                <h2>Uma segunda chance</h2>
+                                <p>Colleen Hoover</p>
+                                <div class="bottom">
+                                    <div class="nota">
+                                        <img src="img/estrela.png" alt="Estrela">
+                                        <p>4.2</p>
+                                    </div>
+                                    <button>Veja Mais</button>
+                                </div>
+                            </div>
+
+                            <div class="livro">
+                                <div class="imagem-livro">
+                                    <img src="img/kimiNiTodoke.jpg" alt="Kimi ni Todoke">
+                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
+                                </div>
+                                <h2>Kimi ni Todoke</h2>
+                                <p>Karuho Shiina</p>
+                                <div class="bottom">
+                                    <div class="nota">
+                                        <img src="img/estrela.png" alt="Estrela">
+                                        <p>3.7</p>
+                                    </div>
+                                    <button>Veja Mais</button>
+                                </div>
+                            </div>
+
+                            <div class="livro">
+                                <div class="imagem-livro">
+                                    <img src="img/mulherzinhas.jpg" alt="Mulherzinhas">
+                                    <img src="img/favoritos.png" alt="Favoritos" class="favorito">
+                                </div>
+                                <h2>Mulherzinhas</h2>
+                                <p>Louisa May Alcott</p>
+                                <div class="bottom">
+                                    <div class="nota">
+                                        <img src="img/estrela.png" alt="Estrela">
+                                        <p>4.8</p>
+                                    </div>
+                                    <button>Veja Mais</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="PaginaPesquisa.js"></script>
+    </body>
+</html>
