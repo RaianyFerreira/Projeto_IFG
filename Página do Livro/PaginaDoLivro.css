@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F6EBF5;
+;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#F6EBF5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.book-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.book-header img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.book-details {
+    flex: 1;
+    margin-left: 20px;
+}
+.book-title {
+    font-size: 24px;
+    color: #E27397;
+    margin: 0;
+}
+.book-author {
+    font-size: 18px;
+    color: #B1C57C;
+;
+    margin: 5px 0;
+}
+.book-rating {
+    color: #B1C57C;
+}
+.book-description {
+    margin: 20px 0;
+    color: #E27397;
+}
+.book-reviews {
+    color: #B1C57C;
+}
+.add-review {
+    background-color: #B1C57C;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.recommendations {
+    margin-top: 40px;
+}
+.recommendations h2 {
+    color:#E27397;
+;
+}
+.recommendation-list {
+    display: flex;
+    justify-content: space-between;
+}
+.recommendation-item {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+.recommendation-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.recommendation-title {
+    font-size: 16px;
+    color: #E27397;
+    margin: 10px 0 5px;
+}
+.recommendation-author {
+    font-size: 14px;
+    color: #B1C57C;
+    margin: 0;
+}
+.recommendation-rating {
+    color: #B1C57C;
+    margin: 5px 0;
+}
+.view-more {
+    background-color: #B1C57C;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.comments {
+    margin-top: 40px;
+}
+.comments h2 {
+    color: #E27397;
+}
+.comment-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.comment-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.comment-details {
+    flex: 1;
+}
+.comment-author {
+    font-size: 16px;
+    color:#E27397;
+    margin: 0;
+}
+.comment-rating {
+    color: #B1C57C;
+}
+.comment-text {
+    color: #E27397;
+    margin: 5px 0;
+}
+.comment-time {
+    color: #B1C57C;
+    font-size: 12px;
+}
