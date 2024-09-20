@@ -33,13 +33,70 @@ button {
     font-size: 25px;
 }
 
-.grid {
-    grid-area: footer;
-    background: #E27397;
-    width: 100%;
-    max-width: 1520px;
-    height: 400px;
-    position: relative;
-    top: 3150px;
-    margin: 0 auto;
+.rodape {
+    background-color: #E27397;
+    padding: 30px 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+}
+.conteudo-rodape {
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contato, .endereco, .inscricao {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.titulo {
+    font-size: 25px;
+    color: #DDF2A5;
+    margin-bottom: 20px;
+}
+
+.contato h2, .endereco h2 {
+    font-size: 25px;
+}
+
+.contato p, .endereco p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.caixa-inscricao {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-email {
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.botao-inscricao {
+    background-color: #C1D983;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+.botao-inscricao img {
+    width: 24px;
+    height: 24px;
 }
